@@ -1,7 +1,7 @@
 # UPDATED 2026-11-05
 
 # =========================
-# Grok / xAI Core
+# xAI / SpaceX AI
 # =========================
 
 # xAI 官网 / API / Console / Auth
@@ -9,6 +9,14 @@ DOMAIN-SUFFIX,x.ai
 
 # SpaceX AI / xAI 账号与登录
 DOMAIN-SUFFIX,spacex.ai
+
+# SpaceXSI 统一身份认证
+DOMAIN-SUFFIX,spacexsi.com
+
+
+# =========================
+# Grok Core Services
+# =========================
 
 # Grok 主站 / Web / Assets / Code / LiveKit
 DOMAIN-SUFFIX,grok.com
@@ -27,6 +35,9 @@ DOMAIN-SUFFIX,groktpcontent.com
 
 # Grok Build / Code Sandbox
 DOMAIN-SUFFIX,grok-sandbox.com
+
+# Grok Bot / Mail
+DOMAIN-SUFFIX,grokbot.com
 
 
 # =========================
@@ -68,38 +79,20 @@ DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
 
 
 # =========================
-# Authentication / Accounts
-# =========================
-
-# Cursor / Grok unified sign-in
-DOMAIN-SUFFIX,spacexsi.com
-
-# xAI / SpaceX authentication
-DOMAIN,accounts.spacex.ai
-DOMAIN,accounts.x.ai
-
-# Cursor legacy authentication
-DOMAIN,authenticate.cursor.sh
-DOMAIN,authenticator.cursor.sh
-
-
-# =========================
 # Feature Flags / Config
 # =========================
 
-# Shared third-party services
-# Uncomment only when required
-
-# DOMAIN-SUFFIX,featureassets.org
-# DOMAIN-SUFFIX,featuregates.org
-# DOMAIN-SUFFIX,assetsconfigcdn.org
-# DOMAIN-SUFFIX,beyondwickedmapping.org
-# DOMAIN-SUFFIX,prodregistryv2.org
+# Grok / Statsig feature flags and configuration
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,assetsconfigcdn.org
+DOMAIN-SUFFIX,beyondwickedmapping.org
+DOMAIN-SUFFIX,prodregistryv2.org
 
 # Statsig services
-# DOMAIN-SUFFIX,statsig.com
-# DOMAIN-SUFFIX,statsigapi.net
-# DOMAIN-SUFFIX,statsigcdn.com
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,statsigcdn.com
 
 
 # =========================
@@ -109,16 +102,16 @@ DOMAIN,authenticator.cursor.sh
 # xAI Chronosphere monitoring
 DOMAIN,xai.chronosphere.io
 
-# Shared analytics service
-# DOMAIN-SUFFIX,mixpanel.com
+# Shared analytics / Mixpanel
+DOMAIN-SUFFIX,mixpanel.com
 
 
 # =========================
 # IP / ASN Fallback
 # =========================
 
-# X.AI announced IPv4 prefix
+# X.AI CORP. IPv4 prefix
 IP-CIDR,31.207.0.0/24,no-resolve
 
-# X.AI ASN
+# X.AI CORP. ASN
 IP-ASN,400297,no-resolve
