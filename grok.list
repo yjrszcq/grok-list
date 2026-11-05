@@ -1,4 +1,4 @@
-# UPDATED 2026-10-15
+# UPDATED 2026-11-05
 
 # =========================
 # Grok / xAI Core
@@ -7,7 +7,7 @@
 # xAI 官网 / API / Console / Auth
 DOMAIN-SUFFIX,x.ai
 
-# SpaceX AI / xAI 账号与登录相关
+# SpaceX AI / xAI 账号与登录
 DOMAIN-SUFFIX,spacex.ai
 
 # Grok 主站 / Web / Assets / Code / LiveKit
@@ -45,20 +45,61 @@ DOMAIN,livekit.mouseion.dev
 
 
 # =========================
+# Grok Bot / Cursor
+# =========================
+
+# Cursor 官网 / Dashboard / Cloud Agents
+DOMAIN-SUFFIX,cursor.com
+
+# Cursor API / Agent / Tab / Indexing
+DOMAIN-SUFFIX,cursor.sh
+
+# Cursor API / Extension Marketplace
+DOMAIN-SUFFIX,cursorapi.com
+
+# Cursor CDN / Assets
+DOMAIN-SUFFIX,cursor-cdn.com
+
+# Grok Bot hosted computer / Remote connection
+DOMAIN-SUFFIX,cursorvm.com
+
+# Cursor client updates / Binaries
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+
+
+# =========================
+# Authentication / Accounts
+# =========================
+
+# Cursor / Grok unified sign-in
+DOMAIN-SUFFIX,spacexsi.com
+
+# xAI / SpaceX authentication
+DOMAIN,accounts.spacex.ai
+DOMAIN,accounts.x.ai
+
+# Cursor legacy authentication
+DOMAIN,authenticate.cursor.sh
+DOMAIN,authenticator.cursor.sh
+
+
+# =========================
 # Feature Flags / Config
 # =========================
 
-# Grok / Statsig feature flags and configuration
-DOMAIN-SUFFIX,featureassets.org
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,assetsconfigcdn.org
-DOMAIN-SUFFIX,beyondwickedmapping.org
-DOMAIN-SUFFIX,prodregistryv2.org
+# Shared third-party services
+# Uncomment only when required
+
+# DOMAIN-SUFFIX,featureassets.org
+# DOMAIN-SUFFIX,featuregates.org
+# DOMAIN-SUFFIX,assetsconfigcdn.org
+# DOMAIN-SUFFIX,beyondwickedmapping.org
+# DOMAIN-SUFFIX,prodregistryv2.org
 
 # Statsig services
-DOMAIN-SUFFIX,statsig.com
-DOMAIN-SUFFIX,statsigapi.net
-DOMAIN-SUFFIX,statsigcdn.com
+# DOMAIN-SUFFIX,statsig.com
+# DOMAIN-SUFFIX,statsigapi.net
+# DOMAIN-SUFFIX,statsigcdn.com
 
 
 # =========================
@@ -68,16 +109,16 @@ DOMAIN-SUFFIX,statsigcdn.com
 # xAI Chronosphere monitoring
 DOMAIN,xai.chronosphere.io
 
-# Analytics
-DOMAIN-SUFFIX,mixpanel.com
+# Shared analytics service
+# DOMAIN-SUFFIX,mixpanel.com
 
 
 # =========================
 # IP / ASN Fallback
 # =========================
 
-# X.AI CORP. 当前明确宣告的 IPv4 网段
+# X.AI announced IPv4 prefix
 IP-CIDR,31.207.0.0/24,no-resolve
 
-# X.AI CORP. ASN
+# X.AI ASN
 IP-ASN,400297,no-resolve
