@@ -1,4 +1,4 @@
-# UPDATED 2026-10-15
+# UPDATED 2026-11-05
 payload:
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,spacex.ai
@@ -12,15 +12,17 @@ payload:
   - DOMAIN-SUFFIX,hades-www.mouseion.dev
   - DOMAIN-SUFFIX,hades-wwwd.mouseion.dev
   - DOMAIN,livekit.mouseion.dev
-  - DOMAIN-SUFFIX,featureassets.org
-  - DOMAIN-SUFFIX,featuregates.org
-  - DOMAIN-SUFFIX,assetsconfigcdn.org
-  - DOMAIN-SUFFIX,beyondwickedmapping.org
-  - DOMAIN-SUFFIX,prodregistryv2.org
-  - DOMAIN-SUFFIX,statsig.com
-  - DOMAIN-SUFFIX,statsigapi.net
-  - DOMAIN-SUFFIX,statsigcdn.com
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursorapi.com
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,cursorvm.com
+  - DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
+  - DOMAIN-SUFFIX,spacexsi.com
+  - DOMAIN,accounts.spacex.ai
+  - DOMAIN,accounts.x.ai
+  - DOMAIN,authenticate.cursor.sh
+  - DOMAIN,authenticator.cursor.sh
   - DOMAIN,xai.chronosphere.io
-  - DOMAIN-SUFFIX,mixpanel.com
   - IP-CIDR,31.207.0.0/24,no-resolve
   - IP-ASN,400297,no-resolve
